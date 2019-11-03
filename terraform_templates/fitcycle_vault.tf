@@ -1,9 +1,9 @@
-resource "aws_s3_bucket" "b" {
-  bucket = "my-tf-test-bucket-876724hkjf"
+resource "aws_s3_bucket" "bucket" {
+  bucket = "addo-s3-demo-bucket"
   acl    = "private"
 
   tags = {
-    Name        = "My bucket"
+    Name        = "My Demo Bucket"
     Environment = "Dev"
   }
 }
