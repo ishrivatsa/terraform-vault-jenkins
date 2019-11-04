@@ -19,7 +19,7 @@ pipeline {
       }       
     }
       
-     stage('Preparation') { 
+     stage('Deploy') { 
        
        
       steps {
